@@ -8,7 +8,6 @@
       <FAQ/>
       <CTA/>
       <Footer/>
-      <Translations/>
     </main>
   </div>
 </template>

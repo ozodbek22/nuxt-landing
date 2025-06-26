@@ -1,7 +1,11 @@
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
+<script lang="ts" setup>
+import {useI18n} from 'vue-i18n'
 
-const { t } = useI18n()
+const {t} = useI18n()
+
+function goToTelgramLink() {
+  window.open('https://t.me/multimock', '_blank')
+}
 </script>
 
 <template>
@@ -10,7 +14,7 @@ const { t } = useI18n()
       <div class="flex justify-between flex-col md:flex-row gap-8">
         <div>
           <router-link class="flex items-center gap-2 font-bold text-lg mb-4" to="/">
-            <img alt="Multi Mock Logo" class="h-8 w-8" src="/logo.svg" />
+            <img alt="Multi Mock Logo" class="h-8 w-8" src="/logo.svg"/>
             <span>Multi Mock</span>
           </router-link>
           <p class="text-muted-foreground text-sm">{{ t('footer.description') }}</p>
@@ -21,13 +25,11 @@ const { t } = useI18n()
             {{ t('footer.subscribeTitle') }}
           </h4>
           <p class="text-sm text-muted-foreground mb-3">{{ t('footer.subscribeSubtitle') }}</p>
-          <form class="flex gap-2">
-            <UButton class="text-white">{{ t('footer.subscribeButton') }}</UButton>
-          </form>
+          <UButton class="text-white cursor-pointer" @click="goToTelgramLink">{{ t('footer.subscribeButton') }}</UButton>
         </div>
       </div>
 
-      <div class="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between items-center text-sm">
+      <div class="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between items-center text-sm border-gray-300">
         <p class="text-muted-foreground">
           © {{ new Date().getFullYear() }} Multi Mock. {{ t('footer.copyright') }}
         </p>

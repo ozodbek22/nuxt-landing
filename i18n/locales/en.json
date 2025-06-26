@@ -1,6 +1,7 @@
 {
   "header": {
     "features": "Features",
+    "home": "Home",
     "howItWorks": "How It Works",
     "testimonials": "Testimonials",
     "faq": "FAQ",
@@ -24,7 +25,7 @@
     "step3Description": "Receive instant results and AI-powered feedback for each section to help you improve and track your progress."
   },
   "testimonials": {
-    "title": "What Our Students Say",
+    "title": "Trusted by professionals",
     "subtitle": "Real feedback from successful learners.",
     "testimonial1Name": "Maria Garcia",
     "testimonial1Title": "Student",
@@ -49,9 +50,9 @@
     "faqItem4Content": "Simply sign up on the platform, select your exam, and start taking mock tests. It's that easy!"
   },
   "cta": {
-    "title": "Ready to Ace Your Exam?",
-    "subtitle": "Stop worrying and start preparing. Your free account is just a click away.",
-    "button": "Claim Your Free Account"
+    "title": "Boost Confidence with Realistic Mock Tests",
+    "subtitle": "Prepare effectively with our immersive mock tests that mimic real exam conditions, helping you build confidence and achieve your goals",
+    "button": "Get Started Free"
   },
   "footer": {
     "description": "Your partner in language proficiency.",

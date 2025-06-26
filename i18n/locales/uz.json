@@ -1,6 +1,7 @@
 {
   "header": {
     "features": "Xususiyatlar",
+    "home": "Asosiy",
     "howItWorks": "Qanday ishlaydi",
     "testimonials": "Foydalanuvchilar fikri",
     "faq": "Savollar va javoblar",
@@ -24,11 +25,11 @@
     "step3Description": "Natijalarni darhol bilib oling va AI tomonidan tayyorlangan feedback orqali kamchiliklaringizni aniqlang."
   },
   "testimonials": {
-    "title": "Bizning Foydalanuvchilarimiz Nima Deyishadi",
+    "title": "Professionalardan ishonchli fikrlar",
     "subtitle": "Muvaffaqiyatli o‘quvchilardan haqiqiy fikrlar.",
     "testimonial1Name": "Maria Garcia",
-    "testimonial1Title": "Talaba",
-    "testimonial1Quote": "Mock imtihonlari yordamida o‘z bilimlarimni sinab ko‘rdim va natijalarimni yaxshiladim. AI feedback juda foydali bo‘ldi.",
+    "testimonial1Title": "Expert",
+    "testimonial1Quote": "Mock imtihonlari bilimlarimni sinab ko‘rish va natijalarimni yaxshilashda yordam berdi. AI feedback juda foydali bo‘ldi.",
     "testimonial2Name": "John Smith",
     "testimonial2Title": "O‘qituvchi",
     "testimonial2Quote": "Bu platforma menga imtihonga tayyorgarlik ko‘rishda katta yordam berdi. Har bir bo‘lim uchun alohida mashq qilish imkoniyati juda qulay.",
@@ -43,18 +44,18 @@
     "faqItem1Content": "Mock imtihonlari haqiqiy imtihon sharoitlarini simulyatsiya qiladi. Siz alohida bo‘limlarni topshirib, darhol natijalarni olasiz.",
     "faqItem2Label": "Qanday imtihonlar mavjud?",
     "faqItem2Content": "Biz CEFR va MULTILEVEL imtihonlari uchun mock imtihonlarni taklif qilamiz. Siz o‘z ehtiyojlaringizga mos imtihonni tanlashingiz mumkin.",
-    "faqItem3Label": "AI feedbackni qanday olaman?",
+    "faqItem3Label": "AI dan feedbackni qanday olaman?",
     "faqItem3Content": "Mock imtihonni tugatgandan so‘ng, sizga darhol AI tomonidan tayyorlangan feedback beriladi. Bu sizga kuchli va zaif tomonlaringizni tushunishga yordam beradi.",
     "faqItem4Label": "Qanday qilib boshlashim mumkin?",
     "faqItem4Content": "Platformada ro‘yxatdan o‘ting, imtihonni tanlang va mock imtihonlarni topshirishni boshlang. Bu juda oson!"
   },
   "cta": {
-    "title": "Imtihoningizga Tayyormisiz?",
-    "subtitle": "Endi tashvishlanishni bas qiling va tayyorgarlikni boshlang. Bepul akkauntingiz birgina bosish narida.",
-    "button": "Bepul Akkaunt Ochish"
+    "title": "Real mock testlar bilan o'zingizga bo'lgan ishonchni oshiring",
+    "subtitle": "Haqiqiy imtihon muhitini beruvchi mock testlarimiz bilan samarali tayyorlaning.",
+    "button": "Bepul boshlash"
   },
   "footer": {
-    "description": "Til bilimingizda sizning ishonchli hamkoringiz.",
+    "description": "Til o‘rganishda ishonchli hamkoringiz.",
     "subscribeTitle": "Telegram kanalimizga obuna bo‘ling",
     "subscribeSubtitle": "Foydali maslahatlar, yangiliklar va maxsus takliflarni oling.",
     "subscribeButton": "Obuna bo‘lish",

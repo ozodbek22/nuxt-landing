@@ -15,7 +15,7 @@ const { t } = useI18n()
 
       <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
         <NuxtLink to="#hero" class="text-gray-500 hover:text-gray-900 transition-colors">
-         Home
+          {{ t('header.home') }}
         </NuxtLink>
         <NuxtLink to="#how-it-works" class="text-gray-500 hover:text-gray-900 transition-colors">
           {{ t('header.howItWorks') }}
@@ -30,7 +30,7 @@ const { t } = useI18n()
 
       <div class="flex items-center gap-2">
         <LanguageSelect />
-        <UButton variant="ghost">{{ t('header.login') }}</UButton>
+        <UButton variant="ghost" class=" cursor-pointer">{{ t('header.login') }}</UButton>
         <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" size="xl" class="text-white cursor-pointer">
           {{ t('header.getStarted') }}
         </UButton>

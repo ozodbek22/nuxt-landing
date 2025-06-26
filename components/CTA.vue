@@ -7,9 +7,10 @@ const { t } = useI18n()
 <template>
   <section id="cta" class="py-20 lg:py-32">
     <div class="container text-center mx-auto px-4">
-      <h2 class="text-3xl lg:text-5xl font-bold tracking-tight">
+      <h2 class="text-3xl lg:text-5xl font-bold tracking-tight max-w-3xl mx-auto text-balance text-center">
         {{ t('cta.title') }}
       </h2>
+
       <p class="mt-6 max-w-xl mx-auto text-lg text-muted-foreground">
         {{ t('cta.subtitle') }}
       </p>

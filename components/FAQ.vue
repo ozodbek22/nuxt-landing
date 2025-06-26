@@ -24,8 +24,16 @@ const faqs = computed(() => {
         <p class="mt-4 text-lg text-gray-600">{{ t('faq.subtitle') }}</p>
       </div>
       <UAccordion
-          :items="faqs" :ui="{ 'item': { 'size': 'text-lg' }, 'default': { 'class': 'text-base' } }"
-          class="w-full mt-12"/>
+          :items="faqs"
+          :ui="{
+    item: 'border-b border-gray-300 last:border-b-0 text-base',
+    header: 'text-start break-words ',
+    trigger: 'group flex-1 flex items-center gap-1.5 font-medium text-lg py-3.5 focus-visible:outline-primary min-w-0 cursor-pointer',
+  }"
+          class="w-full mt-12 "
+      />
+
+
     </div>
   </section>
 
