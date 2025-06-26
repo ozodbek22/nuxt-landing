@@ -25,7 +25,7 @@ export default defineNuxtConfig({
                 { name: 'twitter:image', content: '/og-image.jpg' }
             ],
             link: [
-                { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+                { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }
             ]
         }
     },
