@@ -1,0 +1,63 @@
+{
+  "header": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "login": "Log In",
+    "getStarted": "Get Started Free"
+  },
+  "hero": {
+    "titlePart1": "MOCK Exams: Easy and Effective Preparation",
+    "highlighted": "AI Powered",
+    "subtitle": "Real exam preparation for CEFR and MULTILEVEL with AI support. Get instant results.",
+    "cta": "Start Practicing Now"
+  },
+  "howItWorks": {
+    "title": "How Our Platform Works",
+    "subtitle": "Prepare for CEFR and MULTILEVEL exams with AI-powered mock tests in 3 simple steps.",
+    "step1Title": "Select Your Exam",
+    "step1Description": "Choose CEFR or MULTILEVEL mock exams. Practice the specific skills: Listening, Reading, Writing, or Speaking.",
+    "step2Title": "Take the Mock Exam",
+    "step2Description": "Experience a real exam environment. Solve tasks with official exam design and structure",
+    "step3Title": "Get Instant Feedback",
+    "step3Description": "Receive instant results and AI-powered feedback for each section to help you improve and track your progress."
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "subtitle": "Real feedback from successful learners.",
+    "testimonial1Name": "Maria Garcia",
+    "testimonial1Title": "Student",
+    "testimonial1Quote": "The mock exams helped me test my knowledge and improve my scores. The AI feedback was very helpful.",
+    "testimonial2Name": "John Smith",
+    "testimonial2Title": "Teacher",
+    "testimonial2Quote": "This platform has significantly helped me prepare for exams. The ability to practice each section separately is very convenient.",
+    "testimonial3Name": "Aisha Khan",
+    "testimonial3Title": "Student",
+    "testimonial3Quote": "The AI feedback helped me identify my strengths and weaknesses. Preparing for exams has become much easier."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got questions? We have answers.",
+    "faqItem1Label": "How do mock exams work?",
+    "faqItem1Content": "Mock exams simulate real exam conditions. You can take individual sections and get instant results.",
+    "faqItem2Label": "What exams are available?",
+    "faqItem2Content": "We offer mock exams for CEFR and MULTILEVEL. You can choose the exam based on your needs.",
+    "faqItem3Label": "How do I get AI feedback?",
+    "faqItem3Content": "After completing a mock exam, you will receive instant AI feedback that helps you understand your strengths and weaknesses.",
+    "faqItem4Label": "How do I get started?",
+    "faqItem4Content": "Simply sign up on the platform, select your exam, and start taking mock tests. It's that easy!"
+  },
+  "cta": {
+    "title": "Ready to Ace Your Exam?",
+    "subtitle": "Stop worrying and start preparing. Your free account is just a click away.",
+    "button": "Claim Your Free Account"
+  },
+  "footer": {
+    "description": "Your partner in language proficiency.",
+    "subscribeTitle": "Subscribe to our Telegram channel",
+    "subscribeSubtitle": "Get tips, updates, and special offers.",
+    "subscribeButton": "Subscribe",
+    "copyright": "All Rights Reserved."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "header": {
+    "features": "Xususiyatlar",
+    "howItWorks": "Qanday ishlaydi",
+    "testimonials": "Foydalanuvchilar fikri",
+    "faq": "Savollar va javoblar",
+    "login": "Kirish",
+    "getStarted": "Bepul boshlash"
+  },
+  "hero": {
+    "titlePart1": "asosida sinov imtihonlari: oson va samarali",
+    "highlighted": "Sun’iy intellekt",
+    "subtitle": "CEFR va MULTILEVEL imtihonlari uchun real sinov muhiti. AI yordamida barcha bo‘limlarni topshiring va darhol natijangizni bilib oling.",
+    "cta": "Tayyorgarlikni boshlang"
+  },
+  "howItWorks": {
+    "title": "Platformamiz Qanday Ishlaydi",
+    "subtitle": "CEFR va MULTILEVEL imtihonlariga sun’iy intellekt yordamida 3 qadamda tayyorlaning.",
+    "step1Title": "Imtihonni Tanlang",
+    "step1Description": "CEFR yoki MULTILEVEL imtihonini tanlang. Listening, Reading, Writing, Speaking bo‘limlarini alohida mashq qiling.",
+    "step2Title": "Mock Imtihonni Topshiring",
+    "step2Description": "Haqiqiy imtihon muhitida sinovdan o‘ting.",
+    "step3Title": "Darhol Natijangizni Bilib Oling",
+    "step3Description": "Natijalarni darhol bilib oling va AI tomonidan tayyorlangan feedback orqali kamchiliklaringizni aniqlang."
+  },
+  "testimonials": {
+    "title": "Bizning Foydalanuvchilarimiz Nima Deyishadi",
+    "subtitle": "Muvaffaqiyatli o‘quvchilardan haqiqiy fikrlar.",
+    "testimonial1Name": "Maria Garcia",
+    "testimonial1Title": "Talaba",
+    "testimonial1Quote": "Mock imtihonlari yordamida o‘z bilimlarimni sinab ko‘rdim va natijalarimni yaxshiladim. AI feedback juda foydali bo‘ldi.",
+    "testimonial2Name": "John Smith",
+    "testimonial2Title": "O‘qituvchi",
+    "testimonial2Quote": "Bu platforma menga imtihonga tayyorgarlik ko‘rishda katta yordam berdi. Har bir bo‘lim uchun alohida mashq qilish imkoniyati juda qulay.",
+    "testimonial3Name": "Aisha Khan",
+    "testimonial3Title": "Talaba",
+    "testimonial3Quote": "AI yordamida tayyorlangan feedback menga o‘z kuchli va zaif tomonlarimni aniqlashga yordam berdi. Imtihonga tayyorgarlik ko‘rish jarayoni ancha osonlashdi."
+  },
+  "faq": {
+    "title": "Ko‘p So‘raladigan Savollar",
+    "subtitle": "Savollaringiz bormi? Bizda javoblar bor.",
+    "faqItem1Label": "Mock imtihonlari qanday ishlaydi?",
+    "faqItem1Content": "Mock imtihonlari haqiqiy imtihon sharoitlarini simulyatsiya qiladi. Siz alohida bo‘limlarni topshirib, darhol natijalarni olasiz.",
+    "faqItem2Label": "Qanday imtihonlar mavjud?",
+    "faqItem2Content": "Biz CEFR va MULTILEVEL imtihonlari uchun mock imtihonlarni taklif qilamiz. Siz o‘z ehtiyojlaringizga mos imtihonni tanlashingiz mumkin.",
+    "faqItem3Label": "AI feedbackni qanday olaman?",
+    "faqItem3Content": "Mock imtihonni tugatgandan so‘ng, sizga darhol AI tomonidan tayyorlangan feedback beriladi. Bu sizga kuchli va zaif tomonlaringizni tushunishga yordam beradi.",
+    "faqItem4Label": "Qanday qilib boshlashim mumkin?",
+    "faqItem4Content": "Platformada ro‘yxatdan o‘ting, imtihonni tanlang va mock imtihonlarni topshirishni boshlang. Bu juda oson!"
+  },
+  "cta": {
+    "title": "Imtihoningizga Tayyormisiz?",
+    "subtitle": "Endi tashvishlanishni bas qiling va tayyorgarlikni boshlang. Bepul akkauntingiz birgina bosish narida.",
+    "button": "Bepul Akkaunt Ochish"
+  },
+  "footer": {
+    "description": "Til bilimingizda sizning ishonchli hamkoringiz.",
+    "subscribeTitle": "Telegram kanalimizga obuna bo‘ling",
+    "subscribeSubtitle": "Foydali maslahatlar, yangiliklar va maxsus takliflarni oling.",
+    "subscribeButton": "Obuna bo‘lish",
+    "copyright": "Barcha huquqlar himoyalangan."
+  }
+}

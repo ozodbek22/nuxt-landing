@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Yellow Highlight */
+.highlight-yellow {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight-yellow::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust vertical position */
+    left: -15px;
+    right: -15px;
+    height: 60%;
+    z-index: -1;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 320 50' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5 25 C 50 10, 100 15, 150 20 C 200 25, 250 10, 315 22 C 310 45, 250 50, 200 45 C 150 40, 50 50, 5 35 Z' fill='%23FDE047'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(-1.5deg);
+}
+
+@media (max-width: 640px) {
+    .highlight-yellow::after {
+        bottom: 0;
+        left: -10px;
+        right: -10px;
+        height: 50%;
+    }
+}
+
+/* Hero Background Grid */
+.character-grid {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
+    z-index: 0;
+    overflow: hidden;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+}
+
+.grid-char {
+    font-family: monospace;
+    font-size: 16px;
+    color: #a1a1aa;
+    opacity: 0.1;
+    user-select: none;
+    transition: transform 0.3s ease-out,
+    opacity 0.3s ease-out,
+    color 0.3s ease-out;
+}
+
+
+/* Fade-in animations */
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.7s both;
+}
+
+/* Scroll-triggered animations */
+.animated-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animated-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
