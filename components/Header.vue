@@ -30,8 +30,8 @@ const { t } = useI18n()
 
       <div class="flex items-center gap-2">
         <LanguageSelect />
-        <UButton variant="ghost" class=" cursor-pointer">{{ t('header.login') }}</UButton>
-        <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" size="xl" class="text-white cursor-pointer">
+        <UButton variant="ghost" class="text-green-600 cursor-pointer">{{ t('header.login') }}</UButton>
+        <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" size="xl" class="text-white cursor-pointer bg-green-600">
           {{ t('header.getStarted') }}
         </UButton>
       </div>

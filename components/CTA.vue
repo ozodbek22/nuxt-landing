@@ -15,7 +15,7 @@ const { t } = useI18n()
         {{ t('cta.subtitle') }}
       </p>
       <div class="mt-8">
-        <UButton class="h-14 text-lg px-8 text-white cursor-pointer" size="lg">
+        <UButton class="h-14 text-lg px-8 text-white cursor-pointer bg-green-600" size="lg">
           {{ t('cta.button') }}
         </UButton>
       </div>

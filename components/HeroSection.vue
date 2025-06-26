@@ -21,7 +21,7 @@
       </p>
 
       <div class="animate-fade-in-up" style="animation-delay: 0.6s;">
-        <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" class="text-white" size="xl" @click="gotoLogin">
+        <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" class="text-white bg-green-600" size="xl" @click="gotoLogin">
           {{ t('hero.cta') }}
         </UButton>
       </div>

@@ -43,7 +43,7 @@ const steps = computed(() => [
               class="flex flex-col items-center text-center"
           >
             <div
-                class="h-16 w-16 mb-6 flex items-center justify-center rounded-full bg-primary text-2xl text-white font-bold ring-8 ring-background z-10"
+                class="h-16 w-16 mb-6 flex items-center justify-center rounded-full bg-green-600 text-2xl text-white font-bold ring-8 ring-background z-10"
             >
               {{ index + 1 }}
             </div>

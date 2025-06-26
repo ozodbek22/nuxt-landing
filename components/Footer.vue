@@ -25,7 +25,7 @@ function goToTelgramLink() {
             {{ t('footer.subscribeTitle') }}
           </h4>
           <p class="text-sm text-muted-foreground mb-3">{{ t('footer.subscribeSubtitle') }}</p>
-          <UButton class="text-white cursor-pointer" @click="goToTelgramLink">{{ t('footer.subscribeButton') }}</UButton>
+          <UButton class="text-white cursor-pointer bg-green-600" @click="goToTelgramLink">{{ t('footer.subscribeButton') }}</UButton>
         </div>
       </div>
 
