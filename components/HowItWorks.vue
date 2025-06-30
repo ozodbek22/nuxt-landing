@@ -20,20 +20,20 @@ const steps = computed(() => [
 ])
 </script>
 <template>
-  <section id="how-it-works" class="py-20 lg:py-32 bg-gray-300/10">
+  <section id="how-it-works" class="py-20 lg:py-32 bg-gray-100/40">
     <div class="container mx-auto px-4">
       <div class="text-center max-w-2xl mx-auto">
         <h2 class="text-3xl lg:text-4xl font-bold tracking-tight">
           {{ t('howItWorks.title') }}
         </h2>
-        <p class="mt-4 text-lg text-muted-foreground">
+        <p class="mt-4 text-lg text-gray-500">
           {{ t('howItWorks.subtitle') }}
         </p>
       </div>
 
       <div class="relative mt-16">
         <div
-            class="hidden lg:block absolute top-8 left-1/2 -translate-x-1/2 w-4/5 h-1 border-t-2 border-dashed border-border"
+            class="hidden lg:block absolute top-8 left-1/2 -translate-x-1/2 w-4/5 h-1 border-t-2 border-dashed border-border border-gray-200"
         ></div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8">
@@ -48,7 +48,7 @@ const steps = computed(() => [
               {{ index + 1 }}
             </div>
             <h3 class="text-xl font-semibold mb-2">{{ step.title }}</h3>
-            <p class="text-muted-foreground">{{ step.description }}</p>
+            <p class="text-gray-500">{{ step.description }}</p>
           </div>
         </div>
       </div>

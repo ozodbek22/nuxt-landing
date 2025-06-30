@@ -36,14 +36,12 @@ const testimonials = computed(() => [
         <h2 class="text-3xl lg:text-4xl font-bold tracking-tight">
           {{ t('testimonials.title') }}
         </h2>
-<!--        <p class="mt-4 text-lg text-muted-foreground">-->
-<!--          {{ t('testimonials.subtitle') }}-->
-<!--        </p>-->
+
       </div>
 
       <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <UCard v-for="testimonial in testimonials" :key="testimonial.name"
-               class="flex flex-col justify-between h-full bg-white shadow-lg rounded-lg ring-gray-100 divide-gray-300">
+               class="flex flex-col justify-between h-full bg-white shadow-lg rounded-lg ring-gray-100 ">
           <template #header>
             <p class="italic text-gray-700">"{{ testimonial.quote }}"</p>
           </template>

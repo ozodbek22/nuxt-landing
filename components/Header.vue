@@ -28,10 +28,10 @@ const { t } = useI18n()
         </NuxtLink>
       </nav>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-4">
         <LanguageSelect />
-        <UButton variant="ghost" class="text-green-600 cursor-pointer">{{ t('header.login') }}</UButton>
-        <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" size="xl" class="text-white cursor-pointer bg-green-600">
+        <NuxtLink  class="font-semibold text-sm">{{ t('header.login') }}</NuxtLink>
+        <UButton  size="lg" class="text-white cursor-pointer bg-green-600 rounded-md " to="/get-started">
           {{ t('header.getStarted') }}
         </UButton>
       </div>

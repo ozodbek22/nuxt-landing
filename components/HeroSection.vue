@@ -15,13 +15,13 @@
         {{ t('hero.titlePart1') }}
       </h1>
 
-      <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-600 mb-8 animate-fade-in-up"
+      <p class="max-w-3xl mx-auto text-lg md:text-xl  mb-8 animate-fade-in-up text-gray-500"
          style="animation-delay: 0.4s;">
         {{ t('hero.subtitle') }}
       </p>
 
       <div class="animate-fade-in-up" style="animation-delay: 0.6s;">
-        <UButton :ui="{ rounded: 'rounded-full', font: 'font-bold' }" class="text-white bg-green-600" size="xl" @click="gotoLogin">
+        <UButton class="text-white bg-green-600" size="xl" @click="gotoLogin">
           {{ t('hero.cta') }}
         </UButton>
       </div>
