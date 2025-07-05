@@ -11,7 +11,7 @@
 
     <div class="container text-center z-10 mx-auto px-6 md:px-24">
       <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6 animate-fade-in-up text-balance leading-tight">
-        <AnimatedHighlight> {{ t('hero.highlighted') }}</AnimatedHighlight>
+<!--        <AnimatedHighlight> {{ t('hero.highlighted') }}</AnimatedHighlight>-->
         {{ t('hero.titlePart1') }}
       </h1>
 

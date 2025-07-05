@@ -26,9 +26,9 @@ const steps = computed(() => [
         <h2 class="text-3xl lg:text-4xl font-bold tracking-tight">
           {{ t('howItWorks.title') }}
         </h2>
-        <p class="mt-4 text-lg text-gray-500">
-          {{ t('howItWorks.subtitle') }}
-        </p>
+<!--        <p class="mt-4 text-lg text-gray-500">-->
+<!--          {{ t('howItWorks.subtitle') }}-->
+<!--        </p>-->
       </div>
 
       <div class="relative mt-16">

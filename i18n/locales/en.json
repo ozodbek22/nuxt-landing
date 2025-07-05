@@ -9,18 +9,18 @@
     "getStarted": "Get Started Free"
   },
   "hero": {
-    "titlePart1": "MOCK Exams: Easy and Effective Preparation",
+    "titlePart1": "Easy and Effective Preparation with Multimock",
     "highlighted": "AI Powered",
-    "subtitle": "Real exam preparation for CEFR and MULTILEVEL with AI support. Get instant results.",
+    "subtitle": "Real exam preparation for IELTS and MULTILEVEL with AI support. Get instant results.",
     "cta": "Start Practicing Now"
   },
   "howItWorks": {
     "title": "How Our Platform Works",
     "subtitle": "Prepare for CEFR and MULTILEVEL exams with AI-powered mock tests in 3 simple steps.",
     "step1Title": "Select Your Exam",
-    "step1Description": "Choose CEFR or MULTILEVEL mock exams. Practice the specific skills: Listening, Reading, Writing, or Speaking.",
+    "step1Description": "Choose your mock exams. Practice the specific skills: Listening, Reading, Writing, or Speaking.",
     "step2Title": "Take the Mock Exam",
-    "step2Description": "Experience a real exam environment. Solve tasks with official exam design and structure",
+    "step2Description": "Experience a real exam environment. Solve tasks with exam design and structure",
     "step3Title": "Get Instant Feedback",
     "step3Description": "Receive instant results and AI-powered feedback for each section to help you improve and track your progress."
   },

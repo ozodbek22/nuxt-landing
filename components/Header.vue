@@ -13,7 +13,7 @@ const { t } = useI18n()
         <span class="hidden sm:block">Multi Mock</span>
       </NuxtLink>
 
-      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
         <NuxtLink to="#hero" class="text-gray-500 hover:text-gray-900 transition-colors">
           {{ t('header.home') }}
         </NuxtLink>
