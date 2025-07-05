@@ -21,7 +21,7 @@ const faqs = computed(() => {
     <div class="container max-w-4xl mx-auto px-4">
       <div class="text-center">
         <h2 class="text-3xl lg:text-4xl font-bold tracking-tight">{{ t('faq.title') }}</h2>
-        <p class="mt-4 text-lg text-gray-600">{{ t('faq.subtitle') }}</p>
+<!--        <p class="mt-4 text-lg text-gray-600">{{ t('faq.subtitle') }}</p>-->
       </div>
       <UAccordion
           :items="faqs"
