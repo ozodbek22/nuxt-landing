@@ -31,7 +31,7 @@ const { t } = useI18n()
       <div class="flex items-center gap-4">
         <LanguageSelect />
         <NuxtLink  class="font-semibold text-sm">{{ t('header.login') }}</NuxtLink>
-        <UButton  size="lg" class="text-white cursor-pointer bg-green-600 rounded-md " to="/get-started">
+        <UButton  size="lg" class="text-white cursor-pointer bg-green-600 rounded-md hidden md:block" to="/get-started">
           {{ t('header.getStarted') }}
         </UButton>
       </div>

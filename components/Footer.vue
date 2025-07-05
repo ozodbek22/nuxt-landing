@@ -17,20 +17,20 @@ function goToTelgramLink() {
             <img alt="Multi Mock Logo" class="h-8 w-8" src="/logo.svg"/>
             <span>Multi Mock</span>
           </router-link>
-          <p class="text-muted-foreground text-sm">{{ t('footer.description') }}</p>
+          <p class="text-gray-500 text-sm">{{ t('footer.description') }}</p>
         </div>
 
         <div>
           <h4 class="font-semibold mb-3 flex gap-1 items-center">
             {{ t('footer.subscribeTitle') }}
           </h4>
-          <p class="text-sm text-muted-foreground mb-3">{{ t('footer.subscribeSubtitle') }}</p>
+          <p class="text-sm text-gray-500 mb-3">{{ t('footer.subscribeSubtitle') }}</p>
           <UButton class="text-white cursor-pointer bg-green-600" @click="goToTelgramLink">{{ t('footer.subscribeButton') }}</UButton>
         </div>
       </div>
 
       <div class="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between items-center text-sm border-gray-300">
-        <p class="text-muted-foreground">
+        <p class="text-gray-500">
           © {{ new Date().getFullYear() }} Multi Mock. {{ t('footer.copyright') }}
         </p>
       </div>
